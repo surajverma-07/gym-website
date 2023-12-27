@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suraj fitness gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(luis-vidal-FodEsaNZs48-unsplash.jpg);
+
+            color: white;
+            font-family: 'Acme', sans-serif;
+        }
+
+        header::before {
+            background: url(luis-vidal-FodEsaNZs48-unsplash.jpg);
+            opacity: 0.001;
+            background-repeat: no-repeat;
+
+        }
+
+        .left {
+
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 45px;
+            top: 17px;
+        }
+
+        .mid {
+
+            /* border: 2px solid green; */
+            display: block;
+            margin: 17px auto;
+            width: 50%;
+            /* position: fixed;
+            left: 30%;
+            top :5px; */
+        }
+
+        .right {
+            position: absolute;
+            right: 32px;
+            top: 17px;
+            /* border: 2px solid orange; */
+            display: inline-block;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover {
+            color: #43ff2fd4;
+        }
+
+        .navbar li a:active {
+            text-decoration: underline;
+            color: #43ff2fd4;
+        }
+
+        /* .navbar li a:visited{
+            color: red;
+            text-decoration: underline;
+        } */
+        .left img {
+            /* filter: invert(90%); to change color white <---> black */
+            width: 125px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 20px;
+            font-size: 25px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 15px 18px;
+            border: 2px solid gray;
+            border-radius: 12px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Acme', sans-serif;
+        }
+
+        .btn:hover {
+            background-color: #b7fff08a;
+            color: darkblue;
+
+        }
+
+        .container {
+            /* border: 2px solid #adcbad; */
+            margin: 168px 44px;
+            border-radius: 9px;
+            width: 45%;
+            display: block;
+            padding: 14px 26px;
+            font-family: 'Acme', sans-serif;
+        }
+
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .form1 input {
+            font-size: 21px;
+            margin: 10px 27px;
+            text-align: center;
+            display: inline-block;
+            padding: 7px 57px;
+            /* width: 424px; */
+            border-radius: 7px;
+            background-color: #cfe7ff;
+            color: black;
+        }
+
+        .form1 :hover {
+            background-color: rgb(255, 251, 251);
+        }
+
+        .form1 :active {
+            background-color: rgb(255, 251, 251);
+        }
+
+        .form1 label {
+            font-size: 30px;
+
+        }
+
+        .container button {
+            display: block;
+            width: 63%;
+            margin: 21px 125px;
+            font-size: 30px;
+            padding: 1px 40px;
+            border-radius: 1px;
+        }
+
+        #gen {
+            font-size: 30px;
+        }
+
+        #contact {
+            margin: 2px 4px;
+        }
+
+        .marque {
+            color: #00cbff;
+            font-size: 56px;
+            display: block;
+            margin: 200px 81px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="28135651.jpg" alt="It's not you it's us ">
+            <div>Suraj Fitness </div>
+        </div>
+
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for navigation bar -->
+        <div class="right">
+            <button class="btn">
+                Book Now
+            </button>
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="marque">
+            <marquee width="50%" direction="right" height="90px" scrollamount="20">Welcome to Suraj Fitness Gym
+            </marquee>
+        </div>
+        <div class="container">
+            <h1>Join the best gym</h1>
+            <form action="noaction.php">
+                <div class="form1">
+                    <label for="name1" class="form1">Name: </label>
+                    <input type="text" name="name2" id="name1" placeholder="Enter your name">
+                </div>
+                <div class="form1">
+                    <label for="age" class="form1">Age: &nbsp;&nbsp;&nbsp; </label>
+                    <input type="number" name="name2" id="age" placeholder="Enter your age">
+                </div>
+                <div class="form1" id="gen">
+                    Gender: &nbsp; &nbsp;Male<input type="radio" name="mygen"> Female<input type="radio" name="mygen">
+                </div>
+                <div class="form1">
+                    <label for="city" class="form1">city: &nbsp;&nbsp;&nbsp; </label>
+                    <input type="text" name="name2" id="city" placeholder="Enter your city">
+                </div>
+                <div class="form1">
+                    <label for="contact" class="form1">Contact: </label>
+                    <input type="number" name="name2" id="contact" placeholder="Enter your number">
+                </div>
+                <div class="form1">
+                    <label for="Email" class="form1">Email: </label>
+                    <input type="email" name="Email" placeholder="Enter email id">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>
